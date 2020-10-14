@@ -23,7 +23,6 @@ a:hover {
   grid-row-gap: 3vh; }
 
 .project {
-  margin-bottom: 2vh;
   display: grid;
   grid-gap: 1vh; }
 
