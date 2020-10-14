@@ -6,14 +6,14 @@ html {
   font-size: 25px;
   color: #463838;
   font-family: 'Manrope', Arial, sans-serif;
-  background: #FEF8F8; }
+  background: #fff; }
 
 a {
   color: #463838;
   text-decoration: none; }
 
 a:hover {
-  color: #FF6565;
+  color: #231FFF;
   text-decoration: none; }
 
 .wrapper {
@@ -28,7 +28,7 @@ a:hover {
   margin-bottom: 3vh; }
 
 .project:hover {
-  color: #FF6565;
+  color: #231FFF;
   cursor: pointer; }
 
 .image img {
