@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | absolute_url }}">
     <link rel="stylesheet" href="https://use.typekit.net/mqc4oel.css">
   </head>
 
   <body>
     <header>
       <span id="name"><a href="https://viktoredvardsson.com/">Viktor Edvardsson</a></span>
-      <span id="insta"><img src="insta.png" height="50" alt=""></span>
+      <span id="insta"><img src="{{ "image.png" | absolute_url }}" height="50" alt=""></span>
     </header>
     <div id="container">
       <div class="object"><img src="{{ page.image | relative_url }}" width="100%" alt="">
