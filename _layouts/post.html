@@ -16,12 +16,9 @@
       <span id="insta"><img src="insta.png" height="50" alt=""></span>
     </header>
     <div id="container">
-      <div class="object"><img src="/hemsida-01.png" width="100%" alt="">
-        <p>Mossängens trädgårdsbutik</p>
-        <p>Lorem Ipsum för fan
-<!---->
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+      <div class="object"><img src="{{ page.image | relative_url }}" width="100%" alt="">
+        <p>{{ page.title }}</p>
+        {{ content }}
       </div>
     </div>
   </body>

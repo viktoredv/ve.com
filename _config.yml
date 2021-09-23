@@ -1,0 +1,9 @@
+title: Viktor Edvardsson
+email: viktoredvardsson@gmail.com
+description: Viktor Edvardsson är konceptutvecklare och grafisk formgivare.
+baseurl: ''
+url: 'https://www.viktoredvardsson.com'
+twitter_username: viktoredv
+github_username: ''
+plugins:
+  - jekyll-feed
